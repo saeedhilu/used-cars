@@ -1,5 +1,6 @@
 body{
-    background-color: #26282b;
+    
+    background-color: #000000;
     margin: 0;
     inset: 0;
 }
@@ -27,6 +28,7 @@ body{
     margin-top: -20px;
 }
 #p{
+    
     margin-top: 50px;
     cursor: pointer;
 }
@@ -47,7 +49,7 @@ body{
 .carpic1{
     width: 60%;
     height: 700px;
-    background-color: black;
+   
 }
 .carpic2{
     width: 40%;
@@ -65,7 +67,7 @@ body{
 }
 .brands{
     display: flex;
-    width: 755px;
+    width: 900px;
     margin-left: 96px;
     border-bottom: 2px solid #26282b;
     height: 78px;
@@ -76,6 +78,7 @@ body{
     width: 50px;
     height: 50px;
     cursor: pointer;
+    margin-left: 10px;
 }
 
 .enqury{
@@ -84,8 +87,9 @@ body{
 #brand{
     
     border: 3px solid #13161a;
-    width: 150px;
+    width: 170px;
     height: 30px;
+    background-color: #26282b;
     padding-top: 15px;
     text-align: center;
     margin-left: 350px;
@@ -93,28 +97,78 @@ body{
 .cariamges{
     display: flex;
     justify-content: space-around;
-    background-color:#26282b;
+    border-bottom: 1px solid rgb(0, 0, 0); border-top: 4px solid rgb(0, 0, 0);
+    padding-top: 20px;
+    
    
 }
 #c1{
     width: 300px;
     height: 300px;
     cursor: pointer;
+    border-radius: 30px;
+    padding: 20px;
+    border-bottom: 2px solid orange;
+    border-top: 2px solid blue;
+    
 }
 #d{
-    color: #26282b;
+    color: aliceblue;
     font-size: 20px;
     cursor: pointer;
     
 }
 .porche{
     margin-right:100px;
+    
 }
 .footer-content{
-    border-top: 3px solid #13161a;
+    border-top: 3px solid #f8f8fd;
     cursor: pointer;
+    color: white;
 }
 #link:hover{
     color: rgb(233, 242, 255);
 
+}
+#video1{
+    margin-top: 80px;
+    height: 700px;
+    width: 90%;
+    margin-left: 90px;
+    border-radius: 50px;
+}
+.form{
+    margin-top: 80px;
+}
+#label{
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#lab{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.car1grid{
+    width: 900px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    margin-left: 5%;
+    grid-gap: 16%;
+    color: white;
+
+}
+#c11{
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-bottom: 4px solid orange;
+    border-top: 4px solid blue;
+    
+    
 }
