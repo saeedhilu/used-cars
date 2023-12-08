@@ -111,7 +111,7 @@ body{
    
 }
 #c1{
-    width: 300px;
+    width: 380px;
     height: 300px;
     cursor: pointer;
     border-radius: 30px;
@@ -129,7 +129,7 @@ body{
     
 }
 .porche{
-    margin-right:100px;
+    margin-right:70px;
     border-bottom:2px solid #26282b 
     
 }
@@ -164,16 +164,16 @@ body{
     cursor: pointer;
 }
 .car1grid{
-    width: 540px;
+    width: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 5%;
+    margin-left: 3%;
     grid-gap: 16%;
     color: white;
 
 }
 #c11{
-    width: 300px;
+    width: 400px;
     height: 300px;
     cursor: pointer;
     border-radius: 30px;
@@ -191,7 +191,7 @@ body{
     width: 100%;
     align-items: center;
    width: 60%;
-   margin-left: 480PX; 
+   margin-left: 440PX; 
 }
 #table{
     
@@ -217,6 +217,7 @@ th{
 }
 .rangerover{
     border-bottom: 2px solid #26282b;
+    margin-right: 53px;
 }
 .audio{
     position: sticky;
