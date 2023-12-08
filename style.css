@@ -164,9 +164,9 @@ body{
     cursor: pointer;
 }
 .car1grid{
-    width: 900px;
+    width: 540px;
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-left: 5%;
     grid-gap: 16%;
     color: white;
@@ -179,8 +179,8 @@ body{
     border-radius: 30px;
     margin-top: 30px;
     margin-bottom: 50px;
-    border-bottom: 4px solid orange;
-    border-top: 4px solid blue;
+    border-bottom: 4px solid blue;
+    border-top: 4px solid orange;
     
     
 }
