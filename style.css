@@ -1,6 +1,6 @@
 body{
     
-    background-color: #000000;
+    background-color: #13161a;
     margin: 0;
     inset: 0;
 }
@@ -35,11 +35,20 @@ body{
 .car{
     display: flex;
     justify-content: space-around;
-    margin-left: 120px;
+    padding-left: 100px;
     cursor: pointer;
     border-bottom: solid 1px ;
     font-size: 20px;
     cursor: pointer;
+    color:white;
+    
+}
+#seac{
+    background-color: #f8f8fd;
+}
+#font:hover{
+    color: bisque;
+
 }
 .carpic{
     display: flex;
@@ -67,7 +76,7 @@ body{
 }
 .brands{
     display: flex;
-    width: 900px;
+    width: 1200px;
     margin-left: 96px;
     border-bottom: 2px solid #26282b;
     height: 78px;
@@ -75,7 +84,7 @@ body{
 }
 
 #br{
-    width: 50px;
+    width: 44px;
     height: 50px;
     cursor: pointer;
     margin-left: 10px;
@@ -97,7 +106,6 @@ body{
 .cariamges{
     display: flex;
     justify-content: space-around;
-    border-bottom: 1px solid rgb(0, 0, 0); border-top: 4px solid rgb(0, 0, 0);
     padding-top: 20px;
     
    
@@ -116,10 +124,13 @@ body{
     color: aliceblue;
     font-size: 20px;
     cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 33px;
     
 }
 .porche{
     margin-right:100px;
+    border-bottom:2px solid #26282b 
     
 }
 .footer-content{
@@ -172,4 +183,77 @@ body{
     border-top: 4px solid blue;
     
     
+}
+.table{
+    margin-top: 30px;
+    border-color: yellow;
+    color: white;
+    width: 100%;
+    align-items: center;
+   width: 60%;
+   margin-left: 480PX; 
+}
+#table{
+    
+  width: 700px;
+}
+td{
+    text-align: center;
+
+    
+}
+table,td,th{
+    border: 2px solid white;
+    border-collapse: collapse;
+
+    cursor: pointer;
+}
+th{
+    color: antiquewhite;
+    font-size: 40px;
+}
+#audio{
+    top: 0;
+}
+.rangerover{
+    border-bottom: 2px solid #26282b;
+}
+.audio{
+    position: sticky;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+#audio{
+    width: 120px;
+}
+li::marker{
+    color: #26282b;
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+}
+.fst{
+    margin-top: 27px;
+    height: 21px;
+    display: flex;
+    background-color: #f8f8fd;
+}
+.fst:hover{
+    background-color: bisque;
+}
+
+#icon1st{
+    
+    margin-top: 2px;
+    color: black;
+    width: 200px;
+    position: sticky;
+    top: 11px;
+}
+#i{
+    margin-left: -20px;
+   
 }
